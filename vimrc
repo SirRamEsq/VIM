@@ -109,3 +109,15 @@ endif
 set tabstop=4
 "Set an indent width to 4 to correspond to a single tab
 set shiftwidth=4
+
+"CPP Highlighting VARS
+let g:cpp_class_scope_highlight = 1
+let g:cpp_member_variable_highlight = 1
+let g:cpp_class_decl_highlight = 1
+let g:cpp_concepts_highlight = 1
+
+"Experimental
+"Slower, more accurate
+let g:cpp_experimental_simple_template_highlight = 1
+"Faster Less accurate
+"let g:cpp_experimental_template_highlight = 1
