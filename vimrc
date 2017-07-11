@@ -104,7 +104,7 @@ if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
 
-:color customDesert
+:color desert256 
 "Set tab character to appear 4 spaces wide
 set tabstop=4
 "Set an indent width to 4 to correspond to a single tab
