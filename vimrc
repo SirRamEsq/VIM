@@ -121,3 +121,7 @@ let g:cpp_concepts_highlight = 1
 let g:cpp_experimental_simple_template_highlight = 1
 "Faster Less accurate
 "let g:cpp_experimental_template_highlight = 1
+
+"Tagbar Key
+nmap <F8> :TagbarOpen fjc<CR>
+nmap <F9> :TagbarToggle <CR>
