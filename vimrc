@@ -141,3 +141,4 @@ let g:netrw_winsize = 50
 let g:netrw_banner = 1
 "assign netrw mapping
 nmap <F1> :Vexplore <CR>
+nmap <F2> :Sexplore <CR>
