@@ -126,3 +126,18 @@ let g:cpp_experimental_simple_template_highlight = 1
 "Tagbar Key
 nmap <F8> :TagbarOpen fjc<CR>
 nmap <F9> :TagbarToggle <CR>
+""""""""""""""""""""
+"netrw look and feel
+""""""""""""""""""""
+"How <CR> opens a new file
+let g:netrw_browse_split = 0
+"Change from left splitting to right splitting
+let g:netrw_altv = 1
+"Style the the list is presented in, 3 = tree style
+let g:netrw_liststyle = 3
+"Size expressed in percentage
+let g:netrw_winsize = 50
+"True/False, enables or disables banner
+let g:netrw_banner = 1
+"assign netrw mapping
+nmap <F1> :Vexplore <CR>
