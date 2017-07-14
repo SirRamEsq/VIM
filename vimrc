@@ -125,7 +125,11 @@ let g:cpp_experimental_simple_template_highlight = 1
 
 "Tagbar Key
 nmap <F8> :TagbarOpen fjc<CR>
-nmap <F9> :TagbarToggle <CR>
+nmap <F9> :TagbarToggle<CR>
+
+"map highlight search toggle
+nmap <F12> :set hlsearch!<CR>
+
 """"""""""""""""""""
 "netrw look and feel
 """"""""""""""""""""
