@@ -123,12 +123,6 @@ let g:cpp_experimental_simple_template_highlight = 1
 "Faster Less accurate
 "let g:cpp_experimental_template_highlight = 1
 
-"Tagbar Key
-nmap <F8> :TagbarOpen fjc<CR>
-nmap <F9> :TagbarToggle<CR>
-
-"map highlight search toggle
-nmap <F12> :set hlsearch!<CR>
 
 """"""""""""""""""""
 "netrw look and feel
@@ -143,9 +137,25 @@ let g:netrw_liststyle = 3
 let g:netrw_winsize = 50
 "True/False, enables or disables banner
 let g:netrw_banner = 1
+
+
+"""""""""""""""""""""""
+"Function Key Mappings"
+"""""""""""""""""""""""
+"<F1> Typically mapped to help functions, leave alone
+
 "assign netrw mapping
-nmap <F1> :Vexplore <CR>
-nmap <F2> :Sexplore <CR>
+nmap <F2> :Vexplore <CR>
+nmap <F3> :Sexplore <CR>
+
+"Tagbar Key
+nmap <F8> :TagbarOpen fjc<CR>
+nmap <F9> :TagbarToggle<CR>
 
 "Assign Retab key"
 nnoremap <expr> <F10> ":set tabstop=" . input("Set file tab width [1,2,3,4]") . "<CR>:set noexpandtab<CR>:%retab!<CR>:set tabstop=4<CR>"
+
+"<F11> Mapped to fullscreen
+
+"map highlight search toggle
+nmap <F12> :set hlsearch!<CR>
