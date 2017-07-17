@@ -143,19 +143,24 @@ let g:netrw_banner = 1
 "Function Key Mappings"
 """""""""""""""""""""""
 "<F1> Typically mapped to help functions, leave alone
+"
+"<C-U> clears the command line, leaving only ':'
 
 "assign netrw mapping
-nmap <F2> :Vexplore <CR>
-nmap <F3> :Sexplore <CR>
+nmap <F2> :<C-U>Vexplore <CR>
+nmap <F3> :<C-U>Sexplore <CR>
 
 "Tagbar Key
-nmap <F8> :TagbarOpen fjc<CR>
-nmap <F9> :TagbarToggle<CR>
+nmap <F5> :<C-U>TagbarOpen fjc<CR>
+nmap <F6> :<C-U>TagbarToggle<CR>
+
+"cpp make
+nmap <F9> :<C-U>make<CR>
 
 "Assign Retab key"
-nnoremap <expr> <F10> ":set tabstop=" . input("Set file tab width [1,2,3,4]") . "<CR>:set noexpandtab<CR>:%retab!<CR>:set tabstop=4<CR>"
+nnoremap <expr> <F10> ":<C-U>set tabstop=" . input("Set file tab width [1,2,3,4]") . "<CR>:set noexpandtab<CR>:%retab!<CR>:set tabstop=4<CR>"
 
 "<F11> Mapped to fullscreen
 
 "map highlight search toggle
-nmap <F12> :set hlsearch!<CR>
+nmap <F12> :<C-U>set hlsearch!<CR>
