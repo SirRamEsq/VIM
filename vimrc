@@ -146,3 +146,6 @@ let g:netrw_banner = 1
 "assign netrw mapping
 nmap <F1> :Vexplore <CR>
 nmap <F2> :Sexplore <CR>
+
+"Assign Retab key"
+nnoremap <expr> <F10> ":set tabstop=" . input("Set file tab width [1,2,3,4]") . "<CR>:set noexpandtab<CR>:%retab!<CR>:set tabstop=4<CR>"
