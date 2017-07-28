@@ -152,10 +152,9 @@ nmap <F3> :<C-U>Sexplore <CR>
 
 "Tagbar Key
 nmap <F5> :<C-U>TagbarOpen fjc<CR>
-nmap <F6> :<C-U>TagbarToggle<CR>
 
 "cpp make
-nmap <F9> :<C-U>make<CR>
+nmap <F9> :<C-U>make<CR><CR>
 
 "Assign Retab key"
 nnoremap <expr> <F10> ":<C-U>set tabstop=" . input("Set file tab width [1,2,3,4]") . "<CR>:set noexpandtab<CR>:%retab!<CR>:set tabstop=4<CR>"
@@ -164,3 +163,6 @@ nnoremap <expr> <F10> ":<C-U>set tabstop=" . input("Set file tab width [1,2,3,4]
 
 "map highlight search toggle
 nmap <F12> :<C-U>set hlsearch!<CR>
+
+"Powerline
+let g:Powerline_symbols = 'fancy'
