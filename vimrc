@@ -125,6 +125,13 @@ let g:cpp_experimental_simple_template_highlight = 1
 "Faster Less accurate
 "let g:cpp_experimental_template_highlight = 1
 
+""""""""
+"Folding"
+"""""""""
+set foldmethod=syntax   
+set foldnestmax=10
+set nofoldenable
+set foldlevel=2
 
 """"""""""""""""""""
 "netrw look and feel
