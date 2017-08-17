@@ -133,6 +133,9 @@ set foldnestmax=10
 set nofoldenable
 set foldlevel=2
 
+"Show Line numbers
+set number
+
 """"""""""""""""""""
 "netrw look and feel
 """"""""""""""""""""
